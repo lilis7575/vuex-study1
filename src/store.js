@@ -28,10 +28,14 @@ export default new Vuex.Store({
   },
   mutations: {
     addUsers: (state, payload) => {
+      console.log("mutations")
       state.allUsers.push(payload);
     }
   },
   actions: {
-
+    addUsers: ({commit}, payload) => {
+      console.log("action")
+      commit('addUsers', payload);
+    }
   }
 })
