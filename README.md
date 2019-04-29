@@ -1,4 +1,10 @@
-# vuex-project
+# Vue CLI 3.0 시작하기
+맨땅에 개발하기 스터디.
+
+[유투브](https://www.youtube.com/playlist?list=PLZzSdj89sCN292abcbI3utND8pA1T1OyB)
+
+------
+## vuex-project
 
 ## Project setup
 ```
